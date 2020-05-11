@@ -10,9 +10,5 @@ const wake = async () => {
             uri: process.env.DEPLOY_URL,
         });
     }
-
-    rp.get({
-        uri: process.env.APP_URL
-    });
 };
 wake();
